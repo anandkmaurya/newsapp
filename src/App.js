@@ -18,7 +18,7 @@ export default class App extends React.Component {
           <NavBar />
           <Routes>
             {/* Define routes using the Route component */}
-            <Route exact  path="/newsapp/" element={<News key="general" pageSize={this.pageSize} country="in" category="general" />} />
+            <Route exact  path="/newsapp.github.io/" element={<News key="general" pageSize={this.pageSize} country="in" category="general" />} />
             <Route exact path="/newsapp/business" element={<News key="business" pageSize={this.pageSize} country="in" category="business" />} />
             <Route exact path="/newsapp/entertainment" element={<News key="entertainment" pageSize={this.pageSize} country="in" category="entertainment" />} />
             <Route exact path="/newsapp/general" element={<News key="general" pageSize={this.pageSize} country="in" category="general" />} />
